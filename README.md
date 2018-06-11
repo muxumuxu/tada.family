@@ -7,5 +7,5 @@ It's just an HTML file.
 ## Deployment
 
 ```
-surge
+surge .
 ```
