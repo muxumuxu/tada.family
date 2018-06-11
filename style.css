@@ -9,6 +9,16 @@
   font-weight: 900;
 }
 
+::-moz-selection {
+	color: red;
+  background: yellow;
+}
+
+::selection {
+	color: red;
+  background: yellow;
+}
+
 * {
   outline: none;
   -webkit-appearance: none;
@@ -96,7 +106,7 @@ img{
     font-size: 16px;
   }
   hr{
-    
+
   }
   .row{
     flex-direction: column;
